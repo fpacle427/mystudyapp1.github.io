@@ -1,0 +1,10 @@
+Sources - 
+
+
+https://www.pexels.com/photo/white-clouds-2775196/
+https://www.youtube.com/watch?v=lTRiuFIWV54&t=154s
+https://www.npmjs.com/package/react-countdown-circle-timer
+https://www.npmjs.com/package/spotify-web-api-node
+https://www.npmjs.com/package/react-router-dom
+https://www.npmjs.com/package/inspirational-quotes
+https://www.npmjs.com/package/react-circular-progressbar

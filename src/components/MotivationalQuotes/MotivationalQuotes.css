@@ -1,0 +1,37 @@
+/* Define the styling for the scrolling text */
+.scrolling-text {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scrollText 15s linear infinite;
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scrollText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .scrolling-text {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    right: 5px; /* Adjust position for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .scrolling-text {
+    font-size: 12px; /* Further adjust font size for very small screens */
+    right: 3px; /* Further adjust position for very small screens */
+  }
+}
